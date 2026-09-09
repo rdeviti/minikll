@@ -1,0 +1,32 @@
+# Build directories
+/build/
+build*/
+cmake-build-*/
+out/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake.tmp
+
+# Python / pybind11
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dylib
+*.egg-info/
+.eggs/
+build/lib*/
+dist/
+wheelhouse/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
